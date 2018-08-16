@@ -8,8 +8,9 @@ trait ParallelSum {
 }
 
 class ParallelSumImpl extends ParallelSum {
+  //Any kind of input is possible, not just the ones in Main.scala and in the test case
   override def sum(numbers: Seq[Long])(implicit ec: ExecutionContext): Future[Long] = {
-    //please change this function
+    //please implement this function
     ???
   }
 }
